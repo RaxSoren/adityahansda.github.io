@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 0px;
+    background-color: #F0EFEF;
+    background-image: url("/image/background2.png");
+    background-blend-mode: lighten ;
+
+}
+
+/*--------------------------header------------------------ */
+.header {
+
+    background-color: rgb(194, 189, 189);
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*----------------------------nav----------------------------*/
+nav{
+    height:20px;
+    padding-top: 10px;
+    padding-left: 1px;
+    padding-bottom: 10px;
+    background-color: rgb(10, 6, 61);
+
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    padding-left: 10px;
+}
+
+
+
+li a{
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+
+
+.register {    
+    
+    margin-left: 20px;
+   
+}
+
+.register li a{
+    color: #d1df0f;
+    font-weight: bold;
+}
+
+.home li a{
+    color: #ffffff;
+    
+}
+
+
+.Projects {    
+    
+    margin-left: 20px;
+   
+}
+
+.Projects li a{
+    color: #F0EFEF;
+}
+
+.register:hover{
+    color: #d1df0f;
+}
+
+
+/**********************Form header**************************/
+.head-title-box{
+    height: 80px;
+    width: 100%;
+    background-color:  rgb(10, 6, 61);
+    border-radius: 10px;
+    margin-bottom: 20px;
+   
+}
+
+.head-title{
+  color: rgb(255, 255, 255);
+  padding-top: 20px;
+  padding-left: 50px;
+  font-size:200%;
+  font-weight: bold;
+
+ 
+}
+
+
+
+
+/*-----------form field---------------*/
+.formbox{
+   
+height: 500px;
+padding-top: 40px;
+padding-left: 20%;
+padding-right: 20%;
+border-width:10px;
+
+}
+
+form{
+    background-color: rgb(255, 255, 255);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(1,0,0,0.3);
+    
+}
+
+
+.fields{
+    font-family: sans-serif; 
+    align-items:center;
+    justify-content: space-between;
+}
+
+.fields1 .input-field{
+    
+    font-family: sans-serif;
+  flex-direction: column;
+  width:  calc(100% /3 -15px);
+    
+}
+
+.input-field label{
+    display:block;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(93, 93, 94);
+  
+ 
+}
+
+.input-field input{
+  width:100%;
+  height: 32px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  outline: none;
+  padding-left: 10px;
+  color: black;
+
+}
+
+.input-field input:focus{
+    border-color:rgb(10, 6, 61);
+    border-width:2px;
+     font-weight: bold;
+}
+
+.input-field label:focus{
+    font-weight: bold;
+    color: rgb(233, 233, 233);
+}
+
+
+
+
+.fields .input-field select{
+    width:100%;
+    height: 34px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    outline: none;
+    padding-left: 10px;
+    color: black;
+  
+}
+
+
+.Checkboox{
+    display: flex;
+    
+    
+}
+
+.checkbox{
+  height: 20px;
+  width: 20px;
+  accent-color: green;
+}
+
+ .span{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-top: 2px;
+ 
+
+}
+
+.radio p {
+    color:  rgb(10, 6, 61);
+    font-weight: bold;
+}
+
+
+.submit{
+
+    height:40px;
+    width:100px;
+    background-color: rgb(10, 6, 61);
+    padding-left:40px;
+    padding-top: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+}
+
+.submit a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    user-select: none;
+}
+
+.submit:hover{
+    
+    background-color: orange;
+}
